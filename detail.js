@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const userId = urlParams.get('userId');
     //Erstellen eines Listener, damit auch hier das drücken des Textes im Header den Benutzer zurück auf die Startseite bringt
     title.addEventListener('click', function () {
-        window.location.href = `Startseite.html`;
+        window.location.href = `index.html`;
     });
     // API-Aufruf, um den Benutzernamen zu erhalten
     fetch(`https://dummyjson.com/users/${userId}`)
